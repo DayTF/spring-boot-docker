@@ -1,0 +1,8 @@
+---
+version: '1'
+services:
+  zookeeper:
+    image: 712900013610/spring-rest
+    ports:
+      - "8080:8080"
+    container_name: cloud-spring-rest
